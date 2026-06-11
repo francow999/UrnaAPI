@@ -68,12 +68,7 @@ async function authGoogle(req, res) {
 */
 
 async function authAdmin_or_Auditor(req, res) {
-    /*
-        {
-            "email": "ronaldo@gmail.com",
-            "senha": "3224",
-        }
-    */
+
     try{
         const {email, senha} = req.body;
         let usuarioEncontrado = null;
