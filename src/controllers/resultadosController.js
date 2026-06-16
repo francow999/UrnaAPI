@@ -1,5 +1,5 @@
 //Relatório de Resultados
-const db = require('../config/database');
+const db = require('../config/db');
 
 async function listarResultados(req, res) {
     try {
